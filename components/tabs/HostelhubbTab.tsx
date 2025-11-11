@@ -279,7 +279,7 @@ export default function HostelhubbTab() {
                     <h4 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-2">Beyond Code</h4>
                     <p className="text-neutral-300">
                       Problem solver at heart, passionate about creating efficient backend systems 
-                      and building technology that makes a real impact in people's lives.
+                      and building technology that makes a real impact in people&apos;s lives.
                     </p>
                   </div>
                 </div>

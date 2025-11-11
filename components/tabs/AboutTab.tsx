@@ -184,7 +184,7 @@ export default function AboutTab() {
 
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-2xl border border-neutral-800 p-8">
-          <h2 className="text-2xl font-semibold mb-4 text-white">Let's Connect</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">Let&apos;s Connect</h2>
           <p className="text-neutral-400 mb-6">
             Interested in collaborating or just want to chat about tech? I&apos;d love to hear from you!
           </p>
