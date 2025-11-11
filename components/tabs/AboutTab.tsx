@@ -18,12 +18,12 @@ export default function AboutTab() {
           <h2 className="text-2xl font-semibold mb-6 text-white">My Story</h2>
           <div className="space-y-4 text-neutral-300 text-lg leading-relaxed">
             <p>
-              Hey there! I'm Derrick, a Junior at Kwame Nkrumah University of Science and Technology (KNUST) 
+              Hey there! I&apos;m Derrick, a Junior at Kwame Nkrumah University of Science and Technology (KNUST) 
               in Ghana, passionate about building things that matter. My journey into tech started with curiosity 
               and evolved into a mission to create solutions that make a real impact.
             </p>
             <p>
-              When I'm not coding, you'll find me creating content on YouTube, documenting the 
+              When I&apos;m not coding, you&apos;ll find me creating content on YouTube, documenting the 
               ups and downs of building a startup, and sharing my experiences as a student developer. 
               I believe in learning in public and helping others navigate their journey into tech.
             </p>
@@ -186,7 +186,7 @@ export default function AboutTab() {
         <div className="text-center bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-2xl border border-neutral-800 p-8">
           <h2 className="text-2xl font-semibold mb-4 text-white">Let's Connect</h2>
           <p className="text-neutral-400 mb-6">
-            Interested in collaborating or just want to chat about tech? I'd love to hear from you!
+            Interested in collaborating or just want to chat about tech? I&apos;d love to hear from you!
           </p>
           <button
             onClick={() => window.dispatchEvent(new CustomEvent('changeTab', { detail: 'contact' }))}

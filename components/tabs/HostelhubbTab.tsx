@@ -77,7 +77,7 @@ export default function HostelhubbTab() {
                 <h2 className="text-2xl font-semibold mb-4 text-white">Our Mission</h2>
                 <p className="text-neutral-300 text-lg leading-relaxed">
                   Hostelhubb is transforming how students find, book, and manage their accommodation. 
-                  We've built a comprehensive platform that connects students with quality hostels 
+                  We&apos;ve built a comprehensive platform that connects students with quality hostels 
                   and provides hostel managers with powerful tools to streamline operations.
                   We also provide a wide range of student-tailored services that make living
                   on campus so much easier and comfortable.
@@ -293,10 +293,10 @@ export default function HostelhubbTab() {
             <p className="text-neutral-300 text-lg leading-relaxed mb-4">
               What started as a shared frustration with the student housing search process 
               turned into a mission to solve it. Combining frontend expertise with backend mastery, 
-              we're building a platform that serves both students and hostel owners.
+              we&apos;re building a platform that serves both students and hostel owners.
             </p>
             <p className="text-neutral-300 text-lg leading-relaxed">
-              From late-night coding sessions to product launches, we're proving that 
+              From late-night coding sessions to product launches, we&apos;re proving that 
               two passionate developers can build something that matters.
             </p>
           </div>
