@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const phrases = [
   "Hey there, Derrick here",
@@ -129,10 +130,13 @@ export default function HomeTab() {
               key={idx}
               className="w-44 h-24 bg-neutral-900 rounded-lg overflow-hidden cursor-pointer hover:opacity-80 transition-opacity flex-shrink-0 relative group"
             >
-              <img 
+              <Image 
                 src={`https://img.youtube.com/vi/${video.id}/mqdefault.jpg`}
                 alt={video.title}
+                width={320}
+                height={180}
                 className="w-full h-full object-cover"
+                unoptimized
               />
               <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-all flex items-center justify-center">
                 <div className="absolute top-2 left-2 right-2 text-left text-white font-medium text-xs whitespace-pre-line drop-shadow-lg">

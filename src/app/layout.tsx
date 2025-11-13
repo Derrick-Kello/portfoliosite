@@ -13,8 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Developer Goals",
-  description: "My developer portfolio",
+  title: "Derrick Kello | Software Engineer & Co-Founder",
+  description: "Portfolio of Derrick Kello - Software Engineer, Content Creator, and Co-Founder of Hostelhubb. KNUST student building tech solutions from Ghana.",
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
